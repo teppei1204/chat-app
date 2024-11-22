@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+}
+
+/* 左側 */
+
+.side-bar {
+  width: 300px;
+  height: 100vh;
+  background-color: #253141;
+}
+
+.logo-box {
+  height: 100px;
+  padding: 0px 20px;
+}
+
+.side-content {
+  height: calc(100vh - 100px);
+  padding: 0px 20px;
+  background-color: #2f3e51;
+}
+
+/* 右側 */
+
+.chat {
+  width: calc(100vw - 300px);
+  background-color: #FFFFFF;
+}
+
+.main-header {
+  height: 100px;
+  padding: 0px 40px;
+}
+
+.chat-space {
+  height: calc(100vh - 100px - 90px);
+  padding: 46px 40px 0;
+  background-color: #fafafa;
+}
+
+.form {
+  height: 90px;
+  padding: 20px 40px;
+  background-color: #dddddd;
+}
